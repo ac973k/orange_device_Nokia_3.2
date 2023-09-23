@@ -1,0 +1,4 @@
+source build/envsetup.sh
+export LC_ALL="C"
+lunch
+mka adbd bootimage
